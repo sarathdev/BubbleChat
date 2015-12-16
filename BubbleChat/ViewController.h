@@ -8,9 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>{
+    NSMutableArray *messages;
+    
+}
 @property (weak, nonatomic) IBOutlet UITableView *tbl;
-
-
+@property (nonatomic , retain) NSMutableArray *messages;
+ 
 @end
 
