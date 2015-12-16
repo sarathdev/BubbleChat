@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69B149B11C219FC100E79174 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B149B01C219FC100E79174 /* main.m */; };
+		69B149B41C219FC100E79174 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B149B31C219FC100E79174 /* AppDelegate.m */; };
+		69B149B71C219FC100E79174 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B149B61C219FC100E79174 /* ViewController.m */; };
+		69B149BA1C219FC100E79174 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69B149B81C219FC100E79174 /* Main.storyboard */; };
+		69B149BD1C219FC100E79174 /* BubbleChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 69B149BB1C219FC100E79174 /* BubbleChat.xcdatamodeld */; };
+		69B149BF1C219FC100E79174 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69B149BE1C219FC100E79174 /* Assets.xcassets */; };
+		69B149C21C219FC100E79174 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69B149C01C219FC100E79174 /* LaunchScreen.storyboard */; };
+		69B149CD1C219FC100E79174 /* BubbleChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B149CC1C219FC100E79174 /* BubbleChatTests.m */; };
+		69B149D81C219FC100E79174 /* BubbleChatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B149D71C219FC100E79174 /* BubbleChatUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69B149C91C219FC100E79174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69B149A41C219FC100E79174 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69B149AB1C219FC100E79174;
+			remoteInfo = BubbleChat;
+		};
+		69B149D41C219FC100E79174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69B149A41C219FC100E79174 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69B149AB1C219FC100E79174;
+			remoteInfo = BubbleChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		69B149AC1C219FC100E79174 /* BubbleChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BubbleChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69B149B01C219FC100E79174 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		69B149B21C219FC100E79174 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		69B149B31C219FC100E79174 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		69B149B51C219FC100E79174 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		69B149B61C219FC100E79174 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		69B149B91C219FC100E79174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69B149BC1C219FC100E79174 /* BubbleChat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BubbleChat.xcdatamodel; sourceTree = "<group>"; };
+		69B149BE1C219FC100E79174 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69B149C11C219FC100E79174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69B149C31C219FC100E79174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69B149C81C219FC100E79174 /* BubbleChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BubbleChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69B149CC1C219FC100E79174 /* BubbleChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BubbleChatTests.m; sourceTree = "<group>"; };
+		69B149CE1C219FC100E79174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69B149D31C219FC100E79174 /* BubbleChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BubbleChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69B149D71C219FC100E79174 /* BubbleChatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BubbleChatUITests.m; sourceTree = "<group>"; };
+		69B149D91C219FC100E79174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69B149A91C219FC100E79174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B149C51C219FC100E79174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B149D01C219FC100E79174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69B149A31C219FC100E79174 = {
+			isa = PBXGroup;
+			children = (
+				69B149AE1C219FC100E79174 /* BubbleChat */,
+				69B149CB1C219FC100E79174 /* BubbleChatTests */,
+				69B149D61C219FC100E79174 /* BubbleChatUITests */,
+				69B149AD1C219FC100E79174 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69B149AD1C219FC100E79174 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69B149AC1C219FC100E79174 /* BubbleChat.app */,
+				69B149C81C219FC100E79174 /* BubbleChatTests.xctest */,
+				69B149D31C219FC100E79174 /* BubbleChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69B149AE1C219FC100E79174 /* BubbleChat */ = {
+			isa = PBXGroup;
+			children = (
+				69B149B21C219FC100E79174 /* AppDelegate.h */,
+				69B149B31C219FC100E79174 /* AppDelegate.m */,
+				69B149B51C219FC100E79174 /* ViewController.h */,
+				69B149B61C219FC100E79174 /* ViewController.m */,
+				69B149B81C219FC100E79174 /* Main.storyboard */,
+				69B149BE1C219FC100E79174 /* Assets.xcassets */,
+				69B149C01C219FC100E79174 /* LaunchScreen.storyboard */,
+				69B149C31C219FC100E79174 /* Info.plist */,
+				69B149BB1C219FC100E79174 /* BubbleChat.xcdatamodeld */,
+				69B149AF1C219FC100E79174 /* Supporting Files */,
+			);
+			path = BubbleChat;
+			sourceTree = "<group>";
+		};
+		69B149AF1C219FC100E79174 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69B149B01C219FC100E79174 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		69B149CB1C219FC100E79174 /* BubbleChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				69B149CC1C219FC100E79174 /* BubbleChatTests.m */,
+				69B149CE1C219FC100E79174 /* Info.plist */,
+			);
+			path = BubbleChatTests;
+			sourceTree = "<group>";
+		};
+		69B149D61C219FC100E79174 /* BubbleChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				69B149D71C219FC100E79174 /* BubbleChatUITests.m */,
+				69B149D91C219FC100E79174 /* Info.plist */,
+			);
+			path = BubbleChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69B149AB1C219FC100E79174 /* BubbleChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69B149DC1C219FC100E79174 /* Build configuration list for PBXNativeTarget "BubbleChat" */;
+			buildPhases = (
+				69B149A81C219FC100E79174 /* Sources */,
+				69B149A91C219FC100E79174 /* Frameworks */,
+				69B149AA1C219FC100E79174 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BubbleChat;
+			productName = BubbleChat;
+			productReference = 69B149AC1C219FC100E79174 /* BubbleChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69B149C71C219FC100E79174 /* BubbleChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69B149DF1C219FC100E79174 /* Build configuration list for PBXNativeTarget "BubbleChatTests" */;
+			buildPhases = (
+				69B149C41C219FC100E79174 /* Sources */,
+				69B149C51C219FC100E79174 /* Frameworks */,
+				69B149C61C219FC100E79174 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69B149CA1C219FC100E79174 /* PBXTargetDependency */,
+			);
+			name = BubbleChatTests;
+			productName = BubbleChatTests;
+			productReference = 69B149C81C219FC100E79174 /* BubbleChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		69B149D21C219FC100E79174 /* BubbleChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69B149E21C219FC100E79174 /* Build configuration list for PBXNativeTarget "BubbleChatUITests" */;
+			buildPhases = (
+				69B149CF1C219FC100E79174 /* Sources */,
+				69B149D01C219FC100E79174 /* Frameworks */,
+				69B149D11C219FC100E79174 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69B149D51C219FC100E79174 /* PBXTargetDependency */,
+			);
+			name = BubbleChatUITests;
+			productName = BubbleChatUITests;
+			productReference = 69B149D31C219FC100E79174 /* BubbleChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69B149A41C219FC100E79174 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Sarath;
+				TargetAttributes = {
+					69B149AB1C219FC100E79174 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					69B149C71C219FC100E79174 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 69B149AB1C219FC100E79174;
+					};
+					69B149D21C219FC100E79174 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 69B149AB1C219FC100E79174;
+					};
+				};
+			};
+			buildConfigurationList = 69B149A71C219FC100E79174 /* Build configuration list for PBXProject "BubbleChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69B149A31C219FC100E79174;
+			productRefGroup = 69B149AD1C219FC100E79174 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69B149AB1C219FC100E79174 /* BubbleChat */,
+				69B149C71C219FC100E79174 /* BubbleChatTests */,
+				69B149D21C219FC100E79174 /* BubbleChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69B149AA1C219FC100E79174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B149C21C219FC100E79174 /* LaunchScreen.storyboard in Resources */,
+				69B149BF1C219FC100E79174 /* Assets.xcassets in Resources */,
+				69B149BA1C219FC100E79174 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B149C61C219FC100E79174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B149D11C219FC100E79174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69B149A81C219FC100E79174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B149B71C219FC100E79174 /* ViewController.m in Sources */,
+				69B149B41C219FC100E79174 /* AppDelegate.m in Sources */,
+				69B149B11C219FC100E79174 /* main.m in Sources */,
+				69B149BD1C219FC100E79174 /* BubbleChat.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B149C41C219FC100E79174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B149CD1C219FC100E79174 /* BubbleChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B149CF1C219FC100E79174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B149D81C219FC100E79174 /* BubbleChatUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69B149CA1C219FC100E79174 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69B149AB1C219FC100E79174 /* BubbleChat */;
+			targetProxy = 69B149C91C219FC100E79174 /* PBXContainerItemProxy */;
+		};
+		69B149D51C219FC100E79174 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69B149AB1C219FC100E79174 /* BubbleChat */;
+			targetProxy = 69B149D41C219FC100E79174 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69B149B81C219FC100E79174 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69B149B91C219FC100E79174 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69B149C01C219FC100E79174 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69B149C11C219FC100E79174 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69B149DA1C219FC100E79174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69B149DB1C219FC100E79174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69B149DD1C219FC100E79174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BubbleChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = spurtree.BubbleChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		69B149DE1C219FC100E79174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BubbleChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = spurtree.BubbleChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		69B149E01C219FC100E79174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BubbleChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = spurtree.BubbleChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BubbleChat.app/BubbleChat";
+			};
+			name = Debug;
+		};
+		69B149E11C219FC100E79174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BubbleChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = spurtree.BubbleChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BubbleChat.app/BubbleChat";
+			};
+			name = Release;
+		};
+		69B149E31C219FC100E79174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BubbleChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = spurtree.BubbleChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BubbleChat;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		69B149E41C219FC100E79174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BubbleChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = spurtree.BubbleChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BubbleChat;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69B149A71C219FC100E79174 /* Build configuration list for PBXProject "BubbleChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69B149DA1C219FC100E79174 /* Debug */,
+				69B149DB1C219FC100E79174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69B149DC1C219FC100E79174 /* Build configuration list for PBXNativeTarget "BubbleChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69B149DD1C219FC100E79174 /* Debug */,
+				69B149DE1C219FC100E79174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		69B149DF1C219FC100E79174 /* Build configuration list for PBXNativeTarget "BubbleChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69B149E01C219FC100E79174 /* Debug */,
+				69B149E11C219FC100E79174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		69B149E21C219FC100E79174 /* Build configuration list for PBXNativeTarget "BubbleChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69B149E31C219FC100E79174 /* Debug */,
+				69B149E41C219FC100E79174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		69B149BB1C219FC100E79174 /* BubbleChat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				69B149BC1C219FC100E79174 /* BubbleChat.xcdatamodel */,
+			);
+			currentVersion = 69B149BC1C219FC100E79174 /* BubbleChat.xcdatamodel */;
+			path = BubbleChat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 69B149A41C219FC100E79174 /* Project object */;
+}
