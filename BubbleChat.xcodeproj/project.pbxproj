@@ -502,6 +502,7 @@
 				69B149DE1C219FC100E79174 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		69B149DF1C219FC100E79174 /* Build configuration list for PBXNativeTarget "BubbleChatTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +511,7 @@
 				69B149E11C219FC100E79174 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		69B149E21C219FC100E79174 /* Build configuration list for PBXNativeTarget "BubbleChatUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +520,7 @@
 				69B149E41C219FC100E79174 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -14,6 +14,11 @@
 }
 @property (weak, nonatomic) IBOutlet UITableView *tbl;
 @property (nonatomic , retain) NSMutableArray *messages;
- 
+
+@property (nonatomic , retain) NSMutableArray *incomingMessages;
+@property (nonatomic , retain) NSMutableArray *outgoingMessages;
+
+
+
 @end
 
