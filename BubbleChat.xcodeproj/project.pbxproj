@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		699E40C61C22A4FA000740E0 /* Bubble-0.png in Resources */ = {isa = PBXBuildFile; fileRef = 699E40C21C22A4FA000740E0 /* Bubble-0.png */; settings = {ASSET_TAGS = (); }; };
+		699E40C71C22A4FA000740E0 /* Bubble-0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 699E40C31C22A4FA000740E0 /* Bubble-0@2x.png */; settings = {ASSET_TAGS = (); }; };
+		699E40CC1C22A59B000740E0 /* Bubble_Out.png in Resources */ = {isa = PBXBuildFile; fileRef = 699E40CA1C22A59B000740E0 /* Bubble_Out.png */; settings = {ASSET_TAGS = (); }; };
+		699E40CD1C22A59B000740E0 /* Bubble_Out@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 699E40CB1C22A59B000740E0 /* Bubble_Out@2x.png */; settings = {ASSET_TAGS = (); }; };
 		69B149B11C219FC100E79174 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B149B01C219FC100E79174 /* main.m */; };
 		69B149B41C219FC100E79174 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B149B31C219FC100E79174 /* AppDelegate.m */; };
 		69B149B71C219FC100E79174 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B149B61C219FC100E79174 /* ViewController.m */; };
@@ -36,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		699E40C21C22A4FA000740E0 /* Bubble-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bubble-0.png"; sourceTree = "<group>"; };
+		699E40C31C22A4FA000740E0 /* Bubble-0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bubble-0@2x.png"; sourceTree = "<group>"; };
+		699E40CA1C22A59B000740E0 /* Bubble_Out.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bubble_Out.png; sourceTree = "<group>"; };
+		699E40CB1C22A59B000740E0 /* Bubble_Out@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bubble_Out@2x.png"; sourceTree = "<group>"; };
 		69B149AC1C219FC100E79174 /* BubbleChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BubbleChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69B149B01C219FC100E79174 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		69B149B21C219FC100E79174 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -103,6 +111,10 @@
 		69B149AE1C219FC100E79174 /* BubbleChat */ = {
 			isa = PBXGroup;
 			children = (
+				699E40CA1C22A59B000740E0 /* Bubble_Out.png */,
+				699E40CB1C22A59B000740E0 /* Bubble_Out@2x.png */,
+				699E40C21C22A4FA000740E0 /* Bubble-0.png */,
+				699E40C31C22A4FA000740E0 /* Bubble-0@2x.png */,
 				69B149B21C219FC100E79174 /* AppDelegate.h */,
 				69B149B31C219FC100E79174 /* AppDelegate.m */,
 				69B149B51C219FC100E79174 /* ViewController.h */,
@@ -246,8 +258,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				699E40C71C22A4FA000740E0 /* Bubble-0@2x.png in Resources */,
+				699E40C61C22A4FA000740E0 /* Bubble-0.png in Resources */,
 				69B149C21C219FC100E79174 /* LaunchScreen.storyboard in Resources */,
+				699E40CD1C22A59B000740E0 /* Bubble_Out@2x.png in Resources */,
 				69B149BF1C219FC100E79174 /* Assets.xcassets in Resources */,
+				699E40CC1C22A59B000740E0 /* Bubble_Out.png in Resources */,
 				69B149BA1C219FC100E79174 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +434,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BubbleChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = spurtree.BubbleChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -429,6 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BubbleChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = spurtree.BubbleChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";

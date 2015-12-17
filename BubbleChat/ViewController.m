@@ -18,12 +18,12 @@
     [super viewDidLoad];
     
     //Creating two separate arrays for incoming and outgoing messages
-    
+    //Not Implemented future enhancment
     self.incomingMessages = [[NSMutableArray alloc]initWithObjects:@"Working Late",@"Oh too bad",@"want grab somefood for you",@"I will pick you up",@"Wnt to finish the project",@"Ok", nil];
 
     self.outgoingMessages = [[NSMutableArray alloc]initWithObjects:@"Working Late",@"Oh too bad",@"want grab somefood for you",@"I will pick you up",@"Wnt to finish the project",@"Ok", nil];
     
- //
+ // Currently using this messages Array to show sample chat
     messages = [[NSMutableArray alloc]initWithObjects:@"Working Late",@"Oh too bad",@"want grab somefood for you",@"I will pick you up",@"Wnt to finish the project",@"Ok", nil];
     
     // Do any additional setup after loading the vie w, typically from a nib.
@@ -83,28 +83,32 @@
     UIImage *balloon;
     
     if (indexPath.row % 2 == 0) {
-        balloonView.frame = CGRectMake((320.0f - (width + 28.f)), 2.0f, width+28.0f, stringSize.height +15);
+        balloonView.frame = CGRectMake((320.0f - (width + 28.f)), 2.0f, width+28.0f, stringSize.height +17.0f);
         balloonView.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin;
-        balloon = [[UIImage imageNamed:@""] stretchableImageWithLeftCapWidth:24.0 topCapHeight:15];
-        label.frame = CGRectMake(307.0 - width+5.0f, 8.0f, width + 5.0  , stringSize.height);
+        balloon = [[UIImage imageNamed:@"Bubble-0.png"] stretchableImageWithLeftCapWidth:24.0 topCapHeight:17];
+        label.frame = CGRectMake(307.0 - width+0.0f, 8.0f, width + 5.0  , stringSize.height);
         label.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin;
         
     }
     else{
-        balloonView.frame = CGRectMake((0.0f - (width + 28.f)), 2.0f, width+28.0f, stringSize.height +15);
+        balloonView.frame = CGRectMake((0.0f), 2.0f, width+28.0f, stringSize.height +17.0f);
         balloonView.autoresizingMask = UIViewAutoresizingFlexibleRightMargin;
-        balloon = [[UIImage imageNamed:@""] stretchableImageWithLeftCapWidth:24.0 topCapHeight:15];
-        label.frame = CGRectMake(16.0f , 8.0f, width + 5.0  , stringSize.height);
+        balloon = [[UIImage imageNamed:@"Bubble_Out.png"] stretchableImageWithLeftCapWidth:24.0 topCapHeight:17];
+        label.frame = CGRectMake(17.0f , 8.0f, width + 5.0  , stringSize.height);
         label.autoresizingMask = UIViewAutoresizingFlexibleRightMargin;
-        
 
     }
+    
     if (balloon != nil) {
         
         balloonView.image = balloon;
 
     }
-    label.text = text;
+    if (text != nil) {
+      
+        label.text = text;
+
+    }
     
   
     return cell;
